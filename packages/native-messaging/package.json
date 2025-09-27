@@ -1,0 +1,40 @@
+{
+  "name": "@ubm/native-messaging",
+  "version": "1.0.0",
+  "description": "Native messaging host for Universal Bookmark Manager",
+  "main": "dist/host.js",
+  "bin": {
+    "ubm-native-host": "dist/host.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/host.js",
+    "install:native": "npm run build && npm run register",
+    "register": "node dist/install.js",
+    "unregister": "node dist/uninstall.js",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@ubm/shared": "file:../shared",
+    "sqlite3": "^5.1.6",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/sqlite3": "^3.1.9",
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

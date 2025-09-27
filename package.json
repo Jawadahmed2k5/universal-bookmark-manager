@@ -1,0 +1,48 @@
+{
+  "name": "universal-bookmark-manager",
+  "version": "1.0.0",
+  "description": "A cross-browser bookmark manager extension with advanced sync, search, and organization features",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:extension\" \"npm run dev:dashboard\"",
+    "dev:extension": "npm run dev --workspace=extension",
+    "dev:dashboard": "npm run dev --workspace=dashboard",
+    "build": "npm run build --workspaces",
+    "build:extension": "npm run build --workspace=extension",
+    "build:dashboard": "npm run build --workspace=dashboard",
+    "build:native": "npm run build --workspace=native-messaging",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "type-check": "npm run type-check --workspaces",
+    "clean": "npm run clean --workspaces && rm -rf node_modules",
+    "install:native": "npm run install:native --workspace=native-messaging"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/universal-bookmark-manager.git"
+  },
+  "keywords": [
+    "browser-extension",
+    "bookmark-manager",
+    "chrome-extension",
+    "firefox-extension",
+    "safari-extension",
+    "react",
+    "typescript",
+    "webextensions"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
